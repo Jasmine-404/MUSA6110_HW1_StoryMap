@@ -11,11 +11,11 @@ function initMapAndSlides(mapId, sectionId, slideDeckClass, layerType) {
 
   if (mapId === 'map-0') {
     map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/london-eye" title="London eye icons">London eye icons by Smashicons - Flaticon</a>');
-    map.attributionControl.addAttribution('');
-    map.attributionControl.addAttribution('');
-    map.attributionControl.addAttribution('');
-    map.attributionControl.addAttribution('');
-    map.attributionControl.addAttribution('');
+    map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/statue-of-liberty" title="statue of liberty icons">Statue of liberty icons created by shmai - Flaticon</a>');
+    map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/beijing" title="beijing icons">Beijing icons created by Freepik - Flaticon</a>');
+    map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/australia" title="australia icons">Australia icons created by Freepik - Flaticon</a>');
+    map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/vietnam" title="vietnam icons">Vietnam icons created by justicon - Flaticon</a>');
+    map.attributionControl.addAttribution('<a href="https://www.flaticon.com/free-icons/victoria-day" title="victoria day icons">Victoria day icons created by Freepik - Flaticon</a>');
   }
   // ## The Base Tile Layer
   const baseTileLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {

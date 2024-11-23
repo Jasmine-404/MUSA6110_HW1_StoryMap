@@ -65,8 +65,8 @@ class SlideDeck {
             style: function (feature) {
               if (feature.geometry.type === "LineString" || feature.geometry.type === "MultiLineString") {
                 return {
-                  color: "#5d2521",
-                  weight: 1
+                  color: "#87CEEB",
+                  weight: 2
                 };
               }
             },

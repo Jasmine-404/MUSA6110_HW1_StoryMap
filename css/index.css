@@ -167,7 +167,7 @@ max-width: 100%;      /* 确保图片不会超过容器宽度 */
 }
 
 .slide:last-child {
-  margin-bottom: 10vh;
+  margin-bottom: 90vh;
 }
 
 .slide-controls {
